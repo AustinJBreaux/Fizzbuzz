@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script>
+    const Fizzbuzz = function Fizzbuzz(){
+        let input = prompt("Please input a whole number up to 30", "Please input a whole number between 1 and 30");
+            if (Number.isInteger(input)){
+                console.log("Please input a whole number between 1 and 30");}
+            else if (input > 30){
+                console.log("Please input a whole number between 1 and 30");}
+            else if (input < 1){
+                console.log("Please input a whole number between 1 and 30");}
+            else if (Number.isInteger(input / 15)){
+                console.log("Fizzbuzz!");}
+            else if (Number.isInteger(input / 5)){
+                console.log("Fizz!");}
+            else if (Number.isInteger(input / 3)){
+                console.log("Buzz!");}
+            else{
+                for(let counter = 0; counter <= input; counter++){
+                    console.log(counter)
+                }
+                    ;}
+    }
+
+</script>
+</head>
+<body>
+    
+</body>
+</html>
